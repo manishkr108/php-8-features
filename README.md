@@ -6,6 +6,8 @@ PHP 8 introduced several new features and improvements that can greatly enhance 
 <h1>1. Named Arguments</h1>
 
 Named arguments allow you to pass values to a function based on the parameter name, making the code more readable and less error-prone, especially with functions that have many parameters.
+php
+Copy code
 function createOrder($product, $quantity, $price, $discount = 0) {
     // Your logic here
 }
