@@ -172,9 +172,10 @@ fdiv() handles division by zero gracefully by returning INF, -INF, or NAN, inste
 
 ```
 echo fdiv(1, 0);  // Outputs: INF
+
 ```
 
->Summary
+> Summary
 Named Arguments: Improves readability by specifying parameter names.
 Union Types: Allows multiple types for parameters and return types.
 Match Expressions: Simplifies switch-like structures.
