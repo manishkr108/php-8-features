@@ -175,17 +175,17 @@ echo fdiv(1, 0);  // Outputs: INF
 
 ```
 
-> Summary
-Named Arguments: Improves readability by specifying parameter names.
-Union Types: Allows multiple types for parameters and return types.
-Match Expressions: Simplifies switch-like structures.
-Nullsafe Operator: Prevents null errors when accessing properties or methods.
-Constructor Property Promotion: Reduces boilerplate code for classes.
-Attributes: Native annotations for metadata.
-JIT Compilation: Enhances performance.
-String Functions: Simplifies string checks.
-Throw Expressions: Allows throw in expressions.
-Weak Maps: Efficient object storage without memory leaks.
-fdiv() Function: Safe floating-point division.
+- Summary
+* Named Arguments: Improves readability by specifying parameter names.
+* Union Types: Allows multiple types for parameters and return types.
+* Match Expressions: Simplifies switch-like structures.
+* Nullsafe Operator: Prevents null errors when accessing properties or methods.
+* Constructor Property Promotion: Reduces boilerplate code for classes.
+* Attributes: Native annotations for metadata.
+* JIT Compilation: Enhances performance.
+* String Functions: Simplifies string checks.
+* Throw Expressions: Allows throw in expressions.
+* Weak Maps: Efficient object storage without memory leaks.
+* fdiv() Function: Safe floating-point division.
 These new features make PHP 8 more expressive, readable, and efficient. Let me know if you want examples or further details on any of these features!
 
