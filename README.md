@@ -21,6 +21,7 @@ createOrder(
 
 <h1>2. Union Types</h1>
 Union types allow a function parameter or return type to accept multiple types, enhancing type safety without sacrificing flexibility.
+
 ```
 function processPayment(int|float|string $amount): string {
     return "Processed payment of amount: $amount";
@@ -30,6 +31,7 @@ echo processPayment(100);        // int
 echo processPayment(100.50);     // float
 echo processPayment("100.50");   // string
 ```
+
 <h1>3. Match Expression</h1>
 The match expression is a more powerful and concise alternative to switch, supporting expressions, and returning values directly without the need for break statements.
 ```
